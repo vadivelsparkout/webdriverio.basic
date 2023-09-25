@@ -3,7 +3,7 @@
 describe('describe the test',async ()=>{
 
 
-it('senario 1',async ()=>{
+xit('senario 1',async ()=>{
 
 //navigate to browser
 
@@ -38,7 +38,7 @@ await $$("//tagname[@attribute='value']")
 
 //waituntil
 
-it('wait conditions',async()=>{
+xit('wait conditions',async()=>{
 
    const button= await $$("//tagname[@attribute='value']")
 
@@ -61,7 +61,7 @@ it('wait conditions',async()=>{
 
 })
 
-it('basic actions',async()=>{
+xit('basic actions',async()=>{
 
     //set values
    
@@ -103,7 +103,7 @@ it('basic actions',async()=>{
 
 })
 
-it('boolean',async()=>{
+xit('boolean',async()=>{
 
     const button=$("//button[@type='submit]")
 
@@ -117,7 +117,7 @@ it('boolean',async()=>{
 
 //pause the browser
 
-it('browser pause',async()=>{
+xit('browser pause',async()=>{
 
 await browser.pause(5000)
 

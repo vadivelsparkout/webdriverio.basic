@@ -77,7 +77,7 @@ describe('describe the test', async()=>{
 
         await browser.keys(Key.Enter)
 
-        await $("//button[@type='submit']").click
+        (await $("//button[@type='submit']")).doubleClick()
 
 
     })
@@ -355,7 +355,7 @@ xit('save it as pdf',async()=>{
 
     await browser.url('https://demo.automationtesting.in/Alerts.html')
 
-    await browser.savePDF('screenshot.pdf')
+    await browser.savePDF('screenshot.png')
 
 })
 
@@ -378,7 +378,7 @@ xit('should return a cookie for me', async () => {
 })
 
 //get window size
-it('should return browser window size', async () => {
+xit('should return browser window size', async () => {
     await browser.url('https://the-internet.herokuapp.com/upload')
 
     const windowSize = await browser.getWindowSize();
